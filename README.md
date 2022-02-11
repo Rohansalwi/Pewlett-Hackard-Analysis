@@ -11,6 +11,9 @@ This project is to find out how many employees from each department are retiring
 
 ## Summary
 To learn more about the current employees who have been promoted twice or more, I created a table **current_employees** with their emp_no, name titles, and From and to date. 
+
 Next I created a table **emp_promo** to count the employees who have been promoted twice or more. Please note that for this the employee count will be three or more.
+
 Finally I have joined the emp_promo table with titles table creating a new table **promo_list** which only has the promoted current employees showing the emp_no, title, from date and to date.
+
 Using promo_list, the management can actually think of an employee reward program to retain the current employees while attracting new ones.
